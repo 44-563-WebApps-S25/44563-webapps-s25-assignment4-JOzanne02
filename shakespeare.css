@@ -1,0 +1,35 @@
+/* Class Style Speech */
+p.speech {font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px; 
+    color:black;}
+
+/* Class Style Stage-direction */
+p.stagedirection {font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px; 
+    color:black;
+    background-color: lightgray;
+    padding: 5px;}
+
+p.stagedirection:hover {font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px; 
+    color:whitesmoke;
+    background-color: darkgray;
+    padding: 5px;}
+
+/* Class Style Name */
+h4.name {font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px; 
+    color:black;}
+
+/* Styles For Each Name */
+h4.caesar {color:blueviolet;} 
+
+h4.soothsayer {color:aquamarine;}
+
+h4.artemidoris {color:brown;}
+
+h4.publius {color:yellow;}
+
+h4.deciusbrutus {color: orange;}
+
+h4.cassius {color: pink;}
