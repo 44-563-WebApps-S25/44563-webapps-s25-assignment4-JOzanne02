@@ -17,9 +17,14 @@ p.stagedirection:hover {font-family: Arial, Helvetica, sans-serif;
     padding: 5px;}
 
 /* Class Style Name */
-h4.name {font-family: Arial, Helvetica, sans-serif;
+h4 {font-family: Arial, Helvetica, sans-serif;
     font-size: 18px; 
-    color:black;}
+    color:black;
+    border: 1px solid transparent;
+    transition: box-shadow 0.3s ease, border 0.3s ease;}
+
+h4:hover {box-shadow: 5px 5px 10px salmon;
+        border: solid slategray}
 
 /* Styles For Each Name */
 h4.caesar {color:blueviolet;} 
