@@ -33,3 +33,27 @@ h4.publius {color:yellow;}
 h4.deciusbrutus {color: orange;}
 
 h4.cassius {color: pink;}
+
+.styled-table {
+    width: 50%;
+    border-collapse: collapse; 
+    margin: 20px auto;
+    border: 2px dotted black;
+    box-shadow: darkslategrey;}
+
+.styled-table thead tr {
+    background-color: blue;
+    color: whitesmoke;
+    text-align: left;
+    font-weight: bold;}
+
+.styled-table th, .styled-table td {
+    padding: 12px 15px;
+    border: 1px solid lightslategray; 
+    text-align: center;}
+
+.styled-table tbody tr:nth-of-type(even) { 
+    background-color: lightgrey;}
+
+.styled-table tbody tr:hover {
+    background-color: lightskyblue;}
